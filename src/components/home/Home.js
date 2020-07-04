@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import config from "../api/cofig";
+import config from "../../api/cofig";
 import { Link } from "react-router-dom";
 
 export default class Home extends Component {
