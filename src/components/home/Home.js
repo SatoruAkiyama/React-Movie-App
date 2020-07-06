@@ -20,7 +20,6 @@ export default class Home extends Component {
     });
   }
   render() {
-    console.log(this.state.movieLists);
     const imageUrl = "http://image.tmdb.org/t/p/w300";
     const movieList = this.state.movieLists.map((movie, i) => {
       return (

@@ -14,7 +14,6 @@ class Movie extends Component {
     const movieId = this.props.match.params.movieId;
     const singleMovieUrl = `https://api.themoviedb.org/3/movie/${movieId}?api_key=${config.api_key}`;
     axios.get(singleMovieUrl).then((res) => {
-      console.log(res.data);
       this.setState({
         movie: res.data,
       });
